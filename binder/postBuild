@@ -1,0 +1,10 @@
+#!/bin/bash
+
+files='ca_wac_2015.sql ca_rac_2015.sql ca_od_2015.sql ca_xwalk.sql mo_xwalk.sql'
+
+for file in $files
+do
+  unzip ~/data/${file}.zip -d ~/data/
+  sqlite3 lodes.db < ~/data/${file}
+  rm ~/data/${file}
+done
