@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files='ca_wac_2015.sql ca_rac_2015.sql ca_od_2015.sql ca_xwalk.sql mo_xwalk.sql'
+files='ca_wac_2015.sql ca_rac_2015.sql ca_od_2015.sql ca_xwalk.sql il_wac_2015.sql il_rac_2015.sql il_od_2015.sql il_xwalk.sql'
 
 for file in $files
 do
